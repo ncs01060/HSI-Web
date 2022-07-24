@@ -175,7 +175,7 @@ class WebBrowserWindow(QMainWindow):
         page = curwgt.view().page()
         print(page.url().toString())
         a,b=page.url().toString().split('=')
-        api_key = 'AIzaSyCME00vQ5XDIIW3-nEp9b8tnJCUEMWOImc'
+        api_key = 'API'
         video_id = b
         replies = []
         f=open("./data/test.txt",'w',encoding='utf8')
